@@ -26,7 +26,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
-
+    boolean isSuccess4=true;
     boolean isSuccess=true;
     EditText email, password;
     String em, pass;
